@@ -74,7 +74,12 @@ Here are some examples of how to use this script:
 Please review and understand the script's options and their implications before running it on your system. Use it to improve password security and assess the strength of user passwords on your Linux system.
 
 **Disclaimer**: Use this script responsibly and in accordance with your system's security policies.
-You can include this README section in your GitHub repository to provide clear instructions on how to use the script and its options.
+
+
+
+-CM 
+
+
 
 
 
