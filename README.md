@@ -37,6 +37,7 @@ Here are some examples of how to use this script:
 - To perform a password audit and create a new user interactively:
 
 
+![image](https://github.com/hellowebscc/PRMSSIUS/assets/82586952/b088bfce-c627-49cb-a4d8-04e225d4c104)
 
 
 
