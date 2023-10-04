@@ -10,10 +10,28 @@ This Bash script is designed to audit the strength of user passwords on a Linux 
 To use this script, follow the instructions below:
 
 1. Clone this repository to your Linux system.
+   sudo git clone https://github.com/hellowebscc/PRMSSIUS.git
 
-2. Open a terminal and navigate to the script's directory.
-XX
-3. Run the script with the following command:
+2. cd to de PRMSSIUS directory
+   
+3. Remove the txt file extention to .sh
+   sudo mv ./password_audit_report.sh.txt password_audit_report.sh
+
+5. Give it executible rights
+   sudo chmod +x password_audit_report.sh
+
+7. If when run you get a
+   "unable to execute ./password_audit_report.sh: No such file or directory"
+   then; to fix problem enter in your terminal
+   
+   -> sudo sed -i -e 's/\r$//' password_audit_report.sh
+   This should fix the small bug! also make sure you are in the same directory to run the script.
+  
+  
+9. Run the script with the following command:
+    sudo ./password_audit_report.sh
+
+10. Enjoy.
 
 
 
@@ -22,8 +40,7 @@ XX
 
 
 
-
-./password_audit.sh [options]
+./password_audit.report.sh [options]
 Replace `[options]` with one or more of the following options:
 
 - `-h, --help`: Display the script's help message with usage and available options.
@@ -52,7 +69,7 @@ Here are some examples of how to use this script:
 
 
 
-./password_audit.sh -p
+./password_audit_report.sh 
 - To specify a password hashing algorithm and display selected options:
 
 
@@ -60,7 +77,7 @@ Here are some examples of how to use this script:
 
 
 
-./password_audit.sh -a sha256 -o
+./password_audit.report.sh -a sha256 -o
 ## Notes
 
 - Ensure that you run the script with root privileges or using `sudo` since it accesses system files and performs administrative tasks.
