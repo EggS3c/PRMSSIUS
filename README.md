@@ -12,10 +12,13 @@ To use this script, follow the instructions below:
 1. Clone this repository to your Linux system.
 
 2. Open a terminal and navigate to the script's directory.
-
+XX
 3. Run the script with the following command:
 
 
+![image](https://github.com/hellowebscc/PRMSSIUS/assets/82586952/816f12e5-58d4-430e-a478-1a58066a7738)
+
+![image](https://github.com/hellowebscc/PRMSSIUS/assets/82586952/b380ae4b-6f11-4684-9015-42d2b9fb8c0f)
 
 
 
@@ -35,9 +38,6 @@ Replace `[options]` with one or more of the following options:
 Here are some examples of how to use this script:
 
 - To perform a password audit and create a new user interactively:
-
-
-![image](https://github.com/hellowebscc/PRMSSIUS/assets/82586952/b088bfce-c627-49cb-a4d8-04e225d4c104)
 
 
 
