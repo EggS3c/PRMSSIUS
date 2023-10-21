@@ -2,7 +2,8 @@
 # Password Audit Script
 
 
-#ROOT Privilege-Dependent Bash Script for User Password Audit in Penetration Testing
+#ROOT Privilege-Dependent Bash Script for User Password Audit in Penetration Testing.
+
 This Bash script is most effective when executed with ROOT privileges since it necessitates administrative permissions. If you run this binary during a privilege escalation process, you might encounter restricted access to information because the current user has limited privileges. It is advisable to employ this tool after gaining ROOT access to the system, as it is primarily designed for generating a user audit report containing the passwords of all current users, which can be included in a Penetration Report.
 
 ## Description
