@@ -1,6 +1,10 @@
 # PRMSSIUS
 # Password Audit Script
 
+
+#ROOT Privilege-Dependent Bash Script for User Password Audit in Penetration Testing
+This Bash script is most effective when executed with ROOT privileges since it necessitates administrative permissions. If you run this binary during a privilege escalation process, you might encounter restricted access to information because the current user has limited privileges. It is advisable to employ this tool after gaining ROOT access to the system, as it is primarily designed for generating a user audit report containing the passwords of all current users, which can be included in a Penetration Report.
+
 ## Description
 
 This Bash script is designed to audit the strength of user passwords on a Linux system and provides options for password management. It assesses password quality, identifies weak passwords, and offers recommendations for improving password security. Additionally, it allows for the creation of new users with strong passwords, resetting user passwords, and specifying the password hashing algorithm.
